@@ -1,8 +1,6 @@
 # Trabalhando com Dados Geoespaciais no R
 
-## Estudo de caso: Niterói (RJ)
-
-Minicurso prático promovido pelo **R-Ladies Niterói**.
+**18º Meetup do R-Ladies Niterói**
 
 **Data:** 24 de setembro de 2026  
 **Instrutora:** Profa. Dra. Cássia Silva
