@@ -1,0 +1,32 @@
+PRODUTO
+MapBiomas Brasil — Cobertura e Uso da Terra 10 m
+
+COLEÇÃO
+Coleção 4
+
+ANO
+2025
+
+RESOLUÇÃO NOMINAL
+10 metros
+
+FONTE
+MapBiomas Brasil
+
+URL DO GEOTIFF NACIONAL
+https://storage.googleapis.com/mapbiomas-public/initiatives/brasil/lulc_10m/collection4/coverage/brazil_coverage/brazil_coverage-col4_10m_2025.tif
+
+URL DA LEGENDA OFICIAL PARA R/PYTHON
+https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/legend_code_mapbiomas10m_brazil_collection_4.csv
+
+MÉTODO DE PREPARAÇÃO
+Extração regional preparada no R com terra::rast(), acesso remoto via GDAL/VSI e janela espacial criada a partir de um buffer de 5 km ao redor do município de Niterói.
+
+ARQUIVO DISTRIBUÍDO
+dados/brutos/mapbiomas_entorno_niteroi_2025.tif
+
+OBSERVAÇÃO
+O arquivo distribuído é uma extração retangular regional. O recorte e a máscara pelo limite municipal serão realizados durante o minicurso com crop() e mask().
+
+DATA DE PREPARAÇÃO
+2026-09-19

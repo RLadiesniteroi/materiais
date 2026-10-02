@@ -1,0 +1,10 @@
+Cena Sentinel-2: S2C_23KPQ_20250616_0_L2A
+Data/hora: 2025-06-16T13:08:55.497000Z
+Cobertura de nuvens da cena (%): 0.024947
+Coleção STAC: sentinel-2-l2a
+Catálogo: https://earth-search.aws.element84.com/v1
+B04 scale: 1e-04
+B04 offset: -0.1
+B08 scale: 1e-04
+B08 offset: -0.1
+Preparado em: 2026-09-08
