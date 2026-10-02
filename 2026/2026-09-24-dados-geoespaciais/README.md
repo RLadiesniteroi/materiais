@@ -34,3 +34,11 @@ A gravação do minicurso **Trabalhando com Dados Geoespaciais no R —
 Estudo de caso: Niterói (RJ)** está disponível para consulta.
 
 🎥 [Acessar a gravação do minicurso](https://drive.google.com/file/d/17xcNTLg25pFImDfMNIdc8_A7mOZlWftl/view?usp=sharing)
+
+
+## Autoria
+
+Os materiais deste minicurso foram elaborados por
+[Profa. Dra. Cássia Silva](https://cassiafmsilva.github.io/curso-r-geocientistas/)
+e apresentados no minicurso promovido pelo **R-Ladies Niterói**
+em 24 de setembro de 2026.
