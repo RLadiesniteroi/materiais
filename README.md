@@ -1,16 +1,14 @@
-## Materiais
+# Materiais — R-Ladies Niterói
 
-Este diretório contém os materiais utilizados no minicurso:
+Este repositório reúne materiais de cursos, minicursos e outras atividades promovidas pelo **R-Ladies Niterói**.
 
-- `Slides_RLadies_Niteroi_24_setembro_2026.pdf`: slides apresentados no minicurso;
-- `scripts/`: scripts em R utilizados nas atividades;
-- `dados/`: dados utilizados nos exemplos;
-- `material_complementar/`: materiais e mapas complementares;
-- `Rladies_Niteroi.Rproj`: projeto do RStudio;
-- `LEIA-ME.html`: orientações complementares sobre os arquivos e a execução das atividades.
+## 2026
 
-## Como utilizar os materiais
+### Trabalhando com Dados Geoespaciais no R
 
-Para reproduzir as atividades do minicurso, faça o download ou clone este repositório e abra o arquivo `Rladies_Niteroi.Rproj` no RStudio.
+**Estudo de caso: Niterói (RJ)**
 
-Os scripts utilizados nas atividades estão disponíveis na pasta `scripts/`.
+**Data:** 24 de setembro de 2026  
+**Instrutora:** Profa. Dra. Cássia Silva
+
+[📂 Acessar os materiais do minicurso](2026/2026-09-24-dados-geoespaciais)
