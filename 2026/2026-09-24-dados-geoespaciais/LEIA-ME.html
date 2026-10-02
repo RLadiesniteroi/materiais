@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Cássia Fernanda Martins da Silva">
+  <meta name="description" content="Orientações para utilizar o material do minicurso Trabalhando com dados geoespaciais no R, por Cássia Silva.">
+  <title>LEIA-ME · Trabalhando com dados geoespaciais no R</title>
+  <style>
+    :root{--purple:#5e16ac;--accent:#881ef9;--ink:#2f2f30;--muted:#61616d;--pale:#f5f1fa;--line:#ded9e6}
+    *{box-sizing:border-box}body{margin:0;background:#ededf4;color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    main{max-width:920px;margin:40px auto;background:white;padding:48px 58px;border-top:6px solid var(--accent)}
+    .eyebrow{margin:0 0 14px;color:var(--purple);font-size:12px;letter-spacing:.13em;font-weight:700;text-transform:uppercase}
+    h1{font-size:clamp(28px,4vw,39px);line-height:1.18;letter-spacing:-.025em;margin:0 0 20px;max-width:700px}
+    .intro{color:var(--muted);margin:0 0 20px}.author{border-left:3px solid var(--accent);padding-left:15px;margin:24px 0 30px}.author span{display:block;font-size:14px;color:var(--muted)}
+    nav{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:13px 0;display:flex;gap:10px 23px;flex-wrap:wrap;font-size:14px}
+    a{color:var(--purple);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+    section{margin-top:36px;scroll-margin-top:20px}h2{font-size:22px;line-height:1.3;margin:0 0 16px;color:var(--purple)}p{margin:0 0 14px}
+    ol{padding-left:25px;margin:0}li{padding-left:6px;margin-bottom:12px}li::marker{color:var(--purple);font-weight:700}
+    code{font: .87em/1.5 Consolas,"Liberation Mono",monospace;background:var(--pale);padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}
+    .note{background:var(--pale);border-left:3px solid var(--accent);padding:17px 20px;margin-top:21px}.note p:last-child{margin-bottom:0}
+    table{width:100%;border-collapse:collapse;font-size:15px;text-align:left}th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:10px 12px;background:var(--pale)}td{padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}td:first-child{width:46%}
+    .packages{line-height:2.1}.small{font-size:14px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:38px;padding-top:20px;font-size:14px;color:var(--muted)}footer strong{color:var(--ink)}
+    @media(max-width:620px){main{margin:0;padding:30px 20px}body{font-size:16px}td,th{padding:12px 7px}td:first-child{width:45%}}
+    @media print{body{background:white;font-size:11pt}main{margin:0;max-width:none;padding:0;border-top:3px solid var(--purple)}nav{display:none}section{margin-top:22px}h2{break-after:avoid}tr,.note,.author{break-inside:avoid}a{color:inherit}footer{margin-top:22px}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">R-Ladies Niterói · 2026 · Leia-me</p>
+    <h1>Trabalhando com dados geoespaciais no R</h1>
+    <p class="intro">Preparei este material para acompanhar nossa oficina e para vocês consultarem depois. Antes de começar, vamos conferir a pasta e deixar tudo pronto para a aula?</p>
+    <p class="author"><strong>Profa. Dra. Cássia Silva</strong><span>Autoria: Cássia Fernanda Martins da Silva</span><span>Ecóloga e analista de dados geoespaciais</span></p>
+  </header>
+  <nav aria-label="Conteúdo do LEIA-ME">
+    <a href="#antes">Antes da aula</a><a href="#pasta">Conteúdo da pasta</a><a href="#pacotes">Pacotes</a><a href="#cuidados">Para tudo funcionar</a>
+  </nav>
+  <section id="antes">
+    <h2>Antes da aula</h2>
+    <ol>
+      <li><strong>Descompacte toda a pasta <code>RLadies_Niteroi</code></strong> no computador. Não execute os scripts diretamente dentro do arquivo ZIP.</li>
+      <li>Abra o arquivo <code>Rladies_Niteroi.Rproj</code> no RStudio. Ele fica na pasta principal do material.</li>
+      <li>No painel <strong>Files</strong>, confira as pastas <code>scripts</code>, <code>dados</code>, <code>resultados</code>, <code>figuras</code> e <code>material_complementar</code>.</li>
+      <li>Abra <code>scripts/01_minicurso_niteroi_alunas.R</code>. Esse é o roteiro que vamos utilizar durante a aula.</li>
+      <li>Acompanhe as orientações e execute os blocos na sequência. Vamos construir os mapas aos poucos!</li>
+    </ol>
+    <aside class="note"><p><strong>Nosso ponto de partida é o projeto.</strong> Abra o arquivo <code>.Rproj</code> antes do script para que o R encontre os dados usando os caminhos definidos no material.</p></aside>
+  </section>
+  <section id="pasta">
+    <h2>O que vamos utilizar nesta pasta?</h2>
+    <table>
+      <thead><tr><th scope="col">Arquivo ou pasta</th><th scope="col">Para que serve</th></tr></thead>
+      <tbody>
+        <tr><td><code>scripts/01_minicurso_niteroi_alunas.R</code></td><td>Roteiro principal para acompanhar o minicurso.</td></tr>
+        <tr><td><code>scripts/02_bonus_mapa_localizacao.R</code></td><td>Material complementar para construir e adaptar um mapa de localização. Pode ser explorado com calma depois da aula.</td></tr>
+        <tr><td><code>dados/brutos</code></td><td>Dados fornecidos para a oficina. Mantenha os arquivos e seus nomes como foram entregues.</td></tr>
+        <tr><td><code>dados/processados</code></td><td>Pasta destinada aos dados processados, quando forem salvos pelos scripts.</td></tr>
+        <tr><td><code>resultados/mapas</code></td><td>Pasta destinada à exportação dos mapas da aula.</td></tr>
+        <tr><td><code>figuras</code></td><td>Pasta utilizada pelo bônus para salvar suas figuras.</td></tr>
+        <tr><td><code>material_complementar/mapas_prontos</code></td><td>Exemplo final do mapa de localização para consulta.</td></tr>
+      </tbody>
+    </table>
+    <p class="small" style="margin-top:12px">Visualizar um mapa no painel Plots não salva automaticamente um arquivo. As pastas de saída recebem os resultados quando os comandos de exportação são executados.</p>
+  </section>
+  <section id="pacotes">
+    <h2>Pacotes utilizados</h2>
+    <p>Antes do minicurso, instale os pacotes do roteiro principal que ainda não estiverem disponíveis no seu computador:</p>
+    <p class="packages"><code>sf</code> · <code>tidyverse</code> · <code>ggspatial</code> · <code>terra</code> · <code>patchwork</code></p>
+    <p>Os pacotes <code>geobr</code> e <code>geodata</code> são possibilidades de aquisição de dados. Eles não são necessários para ler os arquivos locais do roteiro principal. O bônus também utiliza <code>cowplot</code>.</p>
+    <aside class="note"><p><strong>Quando precisamos de internet?</strong> Para instalar os pacotes e baixar os materiais. Com tudo preparado, a aula principal utiliza os dados locais. O script bônus inclui download de dados e pode precisar de conexão.</p></aside>
+  </section>
+  <section id="cuidados">
+    <h2>Para tudo funcionar</h2>
+    <p>Mantenha a organização interna da pasta. Os scripts utilizam caminhos relativos, como <code>dados/brutos/...</code>. Mover ou renomear arquivos pode fazer com que o R deixe de encontrá-los.</p>
+    <p>Se aparecer uma mensagem de arquivo não encontrado, confira primeiro se o ZIP foi totalmente descompactado e se o projeto <code>Rladies_Niteroi.Rproj</code> está aberto. Depois, verifique o nome e a localização do arquivo indicado.</p>
+    <p>Se surgir um erro durante a execução, pare nesse ponto e peça ajuda antes de seguir para o próximo bloco. Assim conseguimos entender o que aconteceu juntas.</p>
+  </section>
+  <footer><strong>Material elaborado por Cássia Fernanda Martins da Silva</strong><br>Minicurso · R-Ladies Niterói · 2026</footer>
+</main>
+</body>
+</html>
