@@ -37,8 +37,8 @@ Estudo de caso: Niterói (RJ)** está disponível para consulta.
 ## Autoria
 
 Os materiais deste minicurso foram elaborados por
-[Profa. Dra. Cássia Silva](https://cassiafmsilva.github.io/curso-r-geocientistas/)
+[Profa. Dra. Cássia Silva](https://cassiafmsilva.github.io/curso-r-geocientistas/) e apresentados no minicurso promovido pelo **R-Ladies Niterói**
+em 24 de setembro de 2026.
 
 Mulher, mãe e cientista, a Dra. Cássia Silva é ecóloga, educadora e analista de dados ambientais e geoespaciais. É pesquisadora do grupo Meninas das Geotecnologias e analista de dados do PMAP pela Fundepag. Utiliza o R diariamente em atividades de pesquisa, ensino, trabalho e até em projetos pessoais.
-e apresentados no minicurso promovido pelo **R-Ladies Niterói**
-em 24 de setembro de 2026.
+
