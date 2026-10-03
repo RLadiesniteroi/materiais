@@ -2,11 +2,6 @@
 
 Este repositório reúne materiais de cursos, minicursos e outras atividades promovidas pelo **R-Ladies Niterói**.
 
-
-# Materiais — R-Ladies Niterói
-
-Este repositório reúne materiais de cursos, minicursos e outras atividades promovidas pelo **R-Ladies Niterói**.
-
 ## 2025
 
 ### 13º Meet Up - Explorando Padrões Espaciais em Dados de Área no R: Uma Abordagem Estatística
