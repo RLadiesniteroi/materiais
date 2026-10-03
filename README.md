@@ -48,4 +48,3 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 **Data:** 24 de setembro de 2026  
 **Instrutora:** Cássia Silva
 
-[📂 Acessar os materiais do minicurso](2026/2026-09-24-dados-geoespaciais)
