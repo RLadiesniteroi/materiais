@@ -4,6 +4,10 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 
 ## 2025
 
+
+[📂 Acessar os materiais de 2025](https://github.com/RLadiesniteroi/materiais/tree/main/2025)
+
+
 ### 13º Meet Up - Explorando Padrões Espaciais em Dados de Área no R: Uma Abordagem Estatística
 
 **Data:** 26 de maio de 2025  
@@ -29,7 +33,12 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 
 [📂 Acessar os materiais do minicurso](https://github.com/RLadiesniteroi/materiais/tree/main/2025/2025-12-09-Tidyverse)
 
+
+
 ## 2026
+
+
+[📂 Acessar os materiais de 2026](https://github.com/RLadiesniteroi/materiais/tree/main/2026)
 
 
 ### 17º Meet Up: Dominando o ggplot2 - do zero a gráficos profissionais
