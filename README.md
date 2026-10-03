@@ -31,9 +31,6 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 **Data:** 09 de dezembro de 2025  
 **Instrutoras:** Jessica Kubrusly e Patrícia Lusié Velozo
 
-[📂 Acessar os materiais do minicurso](https://github.com/RLadiesniteroi/materiais/tree/main/2025/2025-12-09-Tidyverse)
-
-
 
 ## 2026
 
@@ -45,9 +42,6 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 
 **Data:** 15 de junho de 2026  
 **Instrutora:** Fernanda Fiel Peres
-
-
-[📂 Acessar os materiais do minicurso](https://github.com/RLadiesniteroi/materiais/tree/main/2026/2026-06-15-ggplot2)
 
 ###  18º Meet Up: Trabalhando com dados geoespaciais no R
 
