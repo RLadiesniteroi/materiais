@@ -15,7 +15,9 @@ de dados no R, abordando a construção e personalização de gráficos.
 
 ## Materiais
 
-Este diretório reúne os materiais utilizados durante o curso.
+Este diretório reúne os materiais utilizados durante o curso. Durante o curso a Fernanda comentou sobre dois vídeos sobre cores, seguem os links:
+Parte 1: https://youtu.be/zEf1DyZJOA8?si=glA5xDYh_xUo17CP
+Parte 2: https://youtu.be/8WLuQ8NfEng?si=6cIbxaVEr8Uubtrf
 
 ## Como utilizar os materiais
 
