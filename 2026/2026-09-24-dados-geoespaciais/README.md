@@ -31,7 +31,7 @@ Os scripts utilizados nas atividades estão disponíveis na pasta `scripts/`.
 A gravação do minicurso **Trabalhando com Dados Geoespaciais no R — 
 Estudo de caso: Niterói (RJ)** está disponível para consulta.
 
-🎥 [Acessar a gravação do minicurso](https://drive.google.com/drive/search?q=18%C2%BA%20Meet%20Up)
+🎥 [Acessar a gravação do minicurso](https://drive.google.com/file/d/1oQI3a4ihKy_W-3Z5-CeJZA_9keEPPiMD/view?usp=sharing)
 
 
 ## Autoria
