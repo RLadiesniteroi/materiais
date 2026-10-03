@@ -27,4 +27,4 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 **Data:** 09 de dezembro de 2025  
 **Instrutoras:** Jessica Kubrusly e Patrícia Lusié Velozo
 
-[📂 Acessar os materiais do minicurso]()
+[📂 Acessar os materiais do minicurso](https://github.com/RLadiesniteroi/materiais/tree/main/2025/2025-12-09-Tidyverse)
