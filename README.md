@@ -5,7 +5,7 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 ## 2026
 
 
-### GGplot
+### 17º Meet Up: Dominando o ggplot2 - do zero a gráficos profissionais
 
 **Data:** 15 de junho de 2026  
 **Instrutora:** 
