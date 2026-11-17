@@ -48,3 +48,8 @@ Este repositório reúne materiais de cursos, minicursos e outras atividades pro
 **Data:** 24 de setembro de 2026  
 **Instrutora:** Cássia Silva
 
+###  23º Meet Up: Coleta de dados e Análise bibliométrica com bibliometrix
+
+**Data:** 13 de novembro de 2026  
+**Instrutora:** Helena Farias Ribeiro
+
